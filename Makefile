@@ -1,7 +1,7 @@
-PROJECT_NAME := xyz Package
+PROJECT_NAME := Proxmox PVE Package
 
-PACK             := xyz
-ORG              := pulumi
+PACK             := proxmox
+ORG              := usmanatron
 PROJECT          := github.com/${ORG}/pulumi-${PACK}
 NODE_MODULE_NAME := @pulumi/${PACK}
 TF_NAME          := ${PACK}
